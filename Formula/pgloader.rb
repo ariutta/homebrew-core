@@ -13,7 +13,7 @@ class Pgloader < Formula
     sha256 "8fbdf3a61ecaf31d45dcb43d898e0f7ae628f787adeda7bc0eb6eaaff3953064" => :mavericks
   end
 
-  depends_on "sbcl"
+  depends_on "clozure-cl"
   depends_on "freetds"
   depends_on "buildapp" => :build
   depends_on :postgresql => :recommended
